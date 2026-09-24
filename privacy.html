@@ -29,7 +29,7 @@
 <h2>1. Data the App accesses</h2>
 <p>When the owner connects an account through the platform's official OAuth login, the App receives only the permissions needed to upload videos:</p>
 <ul>
-  <li><strong>YouTube (Google):</strong> the <code>youtube.upload</code> permission, used only to upload videos to the connected channel.</li>
+  <li><strong>YouTube (Google):</strong> the <code>youtube.upload</code> permission, used only to upload videos to the connected channel, and <code>youtube.readonly</code>, used only to show the name of the connected channel so the owner can confirm the right channel is selected.</li>
   <li><strong>TikTok:</strong> basic profile information (<code>user.info.basic</code>: account ID, display name, avatar) to confirm which account is connected, and <code>video.upload</code> to send videos to that account's TikTok inbox as drafts.</li>
   <li><strong>Instagram:</strong> <code>instagram_business_basic</code> (account ID and username) and <code>instagram_business_content_publish</code> to publish Reels to the connected professional account.</li>
 </ul>
